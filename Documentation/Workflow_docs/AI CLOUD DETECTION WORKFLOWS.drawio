@@ -1,0 +1,112 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="lO3leS50NotyKmgh6hg6">
+    <mxGraphModel dx="1094" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tavp7qFSp1EmEaFNsAtY-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=3;align=left;" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;&amp;nbsp;Data Collection Of the Cloud Detection Using&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;&amp;nbsp;Kaggle or Others Website&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="290" x="220" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="tavp7qFSp1EmEaFNsAtY-5" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="364.5" y="110" as="sourcePoint" />
+            <mxPoint x="364.5" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tavp7qFSp1EmEaFNsAtY-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Data Preprocessing Of Images&amp;nbsp; OR&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Image Preprocessing&lt;/font&gt;&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="290" x="220" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="tavp7qFSp1EmEaFNsAtY-7" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="&lt;b&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Raw Images&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;     ↓&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Cleaning&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;↓&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;font style=&quot;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Resize&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;↓&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;font style=&quot;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Normalization&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;↓&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;font style=&quot;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Data Augmentation&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;↓&lt;/font&gt;&lt;/b&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="200" width="340" x="195" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="tavp7qFSp1EmEaFNsAtY-11" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="364.5" y="200" as="sourcePoint" />
+            <mxPoint x="365" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tavp7qFSp1EmEaFNsAtY-12" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;b&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Model Architecture&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Lightweight U-Net + MobileNet Encoder&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/b&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="330" x="210" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="tavp7qFSp1EmEaFNsAtY-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Train / Validation / Test&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="210" x="260" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="tavp7qFSp1EmEaFNsAtY-18" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="364.5" y="630" as="sourcePoint" />
+            <mxPoint x="364.5" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tavp7qFSp1EmEaFNsAtY-23" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="379.5" y="795" as="sourcePoint" />
+            <mxPoint x="379.5" y="835" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tavp7qFSp1EmEaFNsAtY-26" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="374.5" y="920" as="sourcePoint" />
+            <mxPoint x="374.5" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tavp7qFSp1EmEaFNsAtY-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;M&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;font style=&quot;&quot;&gt;LFLOW FOR EVALUATING METRICS AND STORE THE DAGSHUB&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="80" width="310" x="240" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="tavp7qFSp1EmEaFNsAtY-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;SAVE THE BEST MODEL AND MAKE A DVC.yml&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="340" x="230" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="tavp7qFSp1EmEaFNsAtY-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;DOCKER-COMPOSE&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;KUBERNATES,&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;CICD&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;USE PROMETUS AND GRAFFANA FOR MONIERING THE PROJECT&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="380" x="210" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="tavp7qFSp1EmEaFNsAtY-33" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.417;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" target="tavp7qFSp1EmEaFNsAtY-39" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="380" y="1020" as="sourcePoint" />
+            <mxPoint x="380" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tavp7qFSp1EmEaFNsAtY-34" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=2;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;notch=0;rotation=90;direction=north;" value="" vertex="1">
+          <mxGeometry height="260" width="40" x="500" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="tavp7qFSp1EmEaFNsAtY-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;PRODUCTION LEVEL FASTAPI&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="tavp7qFSp1EmEaFNsAtY-40" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="389.5" y="1120" as="sourcePoint" />
+            <mxPoint x="389.5" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tavp7qFSp1EmEaFNsAtY-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;MAKE A PROFESSIONAL AND BEST USER EXPERIENCE&amp;nbsp; UI&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;USE&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;HTML,CSS,JS OR REACT OR&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;b&gt;SUITABLE LIBRARY&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="270" x="650" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="tavp7qFSp1EmEaFNsAtY-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;DEPLOYMENT&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;AND&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;TESTING OVER ALL THINGS OF OUR PROJECT BEFORE SUMMIT&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="351" x="240" y="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="tavp7qFSp1EmEaFNsAtY-44" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.417;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="399.5" y="1290" as="sourcePoint" />
+            <mxPoint x="399.5" y="1335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tavp7qFSp1EmEaFNsAtY-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 25px;&quot;&gt;MAKE A PPT AND DOCUMENTATION&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="120" width="320" x="254" y="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="tavp7qFSp1EmEaFNsAtY-46" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.417;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="399.5" y="1470" as="sourcePoint" />
+            <mxPoint x="399.5" y="1515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tavp7qFSp1EmEaFNsAtY-47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;SUMMITION THE PROJECT &amp;amp; MEET&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;THE&amp;nbsp; DEADLINE&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="351" x="238" y="1690" as="geometry" />
+        </mxCell>
+        <mxCell id="tavp7qFSp1EmEaFNsAtY-48" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.417;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;width=12;endSize=7;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="399.5" y="1640" as="sourcePoint" />
+            <mxPoint x="399.5" y="1685" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
